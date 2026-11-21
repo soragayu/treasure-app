@@ -25,7 +25,7 @@ export default function Gotouti() {
                 <Image src="/okinawa.jpg" alt="okinawa" width={1095} height={727} />
                 <p className="text-sm font-semibold">第一位</p>
                 <p className="text-lg font-bold">てぃーち(沖縄の方言)</p>
-                <p className="text-base">『数字の1』を意味する言葉。本土とは全然ちがって面白いですね!</p>
+                <p className="text-base">『一つ』を意味する言葉。本土とは全然ちがって面白いですね!</p>
             </div>
             <div className="w-4/5 max-w-100 p-4 shadow-[0_2px_8px_rgba(0,0,0,0.08)] flex flex-col gap-4">
                 <Image src="/akita.jpg" alt="okinawa" width={500} height={375} />
