@@ -12,7 +12,7 @@ export default function Gotouti() {
             <div className="w-full max-w-100 relative">
                 <Image src="/japan.jpg" alt="japan" width={2108} height={2016} />
                 <div className={`w-full absolute p-4 text-white ${mincho.className} inset-0 items-center justify-center flex flex-col gap-4`}>
-                    <p className="text-2xl">23時頃に出会うワカセひろば</p>
+                    <p className="text-2xl">23時頃に出合うワカセひろば</p>
                     <p className="text-sm">日本には面白い方言がたくさんあるということをご存知ですか？</p>
                 </div>
             </div>
