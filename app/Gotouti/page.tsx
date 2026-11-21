@@ -16,7 +16,7 @@ export default function Gotouti() {
                     <p className="text-sm">日本には面白い方言がたくさんあるということをご存知ですか？</p>
                 </div>
             </div>
-            <div className="w-full max-w-100"><Image src="/art.png" alt="category" width="1206" height="1062" className="w-full" /></div>
+            <div className="w-full max-w-100"><Image src="/art.png" alt="art" width="1206" height="1062" className="w-full" /></div>
             <div className="w-full max-w-100 flex flex-col items-center">
                 <p className="text-[#5e5e5e] text-sm">RANKING</p>
                 <p className="text-base border-b font-bold border-[#fe5752]">みんなが気になる方言ランキング</p>
