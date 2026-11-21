@@ -11,7 +11,7 @@ export default function Time() {
             <div className="w-full max-w-100"><Image src="/torio.jpg" alt="torio" width={1206} height={180} /></div>
             <div className="w-full max-w-100 bg-[#FAFAF6] p-4 flex flex-col gap-2">
                 <div className="w-full flex items-center">
-                    <Image src="/logo.png" alt="logo" width={4096} height={4096} className="w-1/10" />
+                    <Image src="/rogo2.png" alt="logo" width={4096} height={4096} className="w-1/10" />
                     <p className="font-semibold">このまとめ記事の目次</p>
                 </div>
                 <div className="text-sm text-[#757575] tracking-widest">
