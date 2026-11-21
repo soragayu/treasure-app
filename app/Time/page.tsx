@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Time() {
     return (
-        <div className="w-full h-screen p-8 flex flex-col items-center gap-8">
+        <div className="w-full p-8 flex flex-col items-center gap-8">
             <p >SKY<span className="text-[#16b9e7]">.トリップ</span></p>
             <div className="w-full max-w-100">
                 <Image src="/rondon.jpg" alt="rondon" width={1206} height={896} />
@@ -10,15 +10,18 @@ export default function Time() {
             </div>
             <div className="w-full max-w-100"><Image src="/torio.jpg" alt="torio" width={1206} height={180} /></div>
             <div className="w-full max-w-100 bg-[#FAFAF6] p-4 flex flex-col gap-2">
-                <p className="font-semibold">このまとめ記事の目次</p>
+                <div className="w-full flex items-center">
+                    <Image src="/logo.png" alt="logo" width={4096} height={4096} className="w-1/10" />
+                    <p className="font-semibold">このまとめ記事の目次</p>
+                </div>
                 <div className="text-sm text-[#757575] tracking-widest">
                     <p>- ビッグ・ベン</p>
-                    <p>- プラハの天文台</p>
-                    <p>- ツィットグロっゲ</p>
-                    <p>- 大時計ルーアン</p>
+                    <p>- 星順メトロ</p>
+                    <p>- 硝子の逆光</p>
+                    <p>- 色鐘トーレ</p>
                     <p>- クレムリンタワー</p>
-                    <p>- 新狐狼</p>
-                    <p>- 蒸気時計</p>
+                    <p>- 帽塔ベルニ</p>
+                    <p>- 永遠ヲ刻ム</p>
                 </div>
             </div>
             <div className="w-full max-w-100 flex flex-col gap-2">
@@ -42,7 +45,7 @@ export default function Time() {
                 <p className="text-sm px-4 text-[#757575]">フランスのルーアンにある大時計。ルーアンで最も賑やかな通りにあるこの時計は、この街の目印ともなっている</p>
             </div>
             <div className="w-full max-w-100 flex flex-col gap-2">
-                <p className="font-semibold px-4 border-l-4 border-[#0000FF]">クレムリンタワー</p>
+                <p className="font-semibold px-4 border-l-4 border-[#4B0082]">クレムリンタワー</p>
                 <Image src="/rosia.jpg" alt="rosia" width={1206} height={789} />
                 <p className="text-sm px-4 text-[#757575]">ロシアはモスクワにある時計塔。黒くてシックなデザインが特徴的である</p>
             </div>
@@ -52,7 +55,7 @@ export default function Time() {
                 <p className="text-sm px-4 text-[#757575]">大阪府柏原市にある時計台。警察署で管理されており、品番が259705であることが知られている</p>
             </div>
             <div className="w-full max-w-100 flex flex-col gap-2">
-                <p className="font-semibold px-4 border-l-4 border-[#4B0082]">永遠ヲ刻ム</p>
+                <p className="font-semibold px-4 border-l-4 border-[#0000FF]">永遠ヲ刻ム</p>
                 <Image src="/kanada.jpg" alt="kanada" width={1206} height={863} />
                 <p className="text-sm px-4 text-[#757575]">カナダのバンクーバーにある蒸気時計。15分おきに蒸気で笛が鳴るユニークな構造</p>
             </div>
